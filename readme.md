@@ -20,15 +20,6 @@ This version demonstrates:
 - CSS Grid
 - Google Fonts
 
-## Project Structure
-
-html-portfolio-v1/
-│
-├── index.html
-├── README.md
-└── css/
-    └── styles.css
-
 ## Features
 
 - Flexbox navigation bar
