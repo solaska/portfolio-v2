@@ -2,17 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home - My Portfolio</title>
+    <title>Kosmas Kasolas | Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi! I'm Kosmas Kasolas, a beginner web developer learning HTML.</p>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About Me</a> |
-        <a href="contact.html">Contact</a>
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Kosmas Kasolas</h2>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Hi, I'm Kosmas</h1>
+        <p>A Web Developer in progress </p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am currently learning full-stack web development.
+        This portfolio demonstrates HTML, CSS, Flexbox, and CSS Grid.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+        <div class="card">
+            <h3>HTML Portfolio</h3>
+            <p>Built using pure HTML.</p>
+        </div>
+        <div class="card">
+            <h3>CSS Styling</h3>
+            <p>Styled using external CSS.</p>
+        </div>
+        <div class="card">
+            <h3>Flexbox Layout</h3>
+            <p>Navigation built with Flexbox.</p>
+        </div>
+        <div class="card">
+            <h3>CSS Grid Layout</h3>
+            <p>Responsive grid for projects section.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: kosmkaso@gmail</p>
+</section>
+
+<footer>
+    <p> 2026 Kosmas Kasolas</p>
+</footer>
+
 </body>
 </html>

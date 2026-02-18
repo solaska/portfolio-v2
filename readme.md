@@ -1,28 +1,43 @@
-# My Portfolio Website
+# Personal Portfolio Website (v2)
 
-This is a simple **HTML-only portfolio website** created as part of my learning journey in web development following Angela Yu's Udemy course.
+This is version 2 of my portfolio website.
+
+This version demonstrates:
+
+- Semantic HTML5
+- External CSS
+- Flexbox layout
+- CSS Grid
+- Responsive design
+- Organized file structure
+- Git branching workflow
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- Google Fonts
 
 ## Project Structure
 
-- `index.html` – Home page  
-- `about.html` – About Me page  
-- `contact.html` – Contact page  
-
-All files are in the same folder for simplicity. No CSS or JavaScript has been added yet.
+html-portfolio-v1/
+│
+├── index.html
+├── README.md
+└── css/
+    └── styles.css
 
 ## Features
 
-- Multi-page HTML site
-- Navigation menu linking between pages
-- Beginner-friendly structure, easy to upgrade later
-- Placeholder sections for About Me and Contact information
+- Flexbox navigation bar
+- Centered hero section
+- Responsive grid layout
+- Clean section spacing
+- Structured single-page design
 
-## Future Upgrades
+## Author
 
-As I progress through the course, I plan to:
-
-- Add CSS for styling
-- Include images and profile picture
-- Add a projects page
-- Improve layout and design
-- Add interactive elements with JavaScript
+Kosmas Kasolas  
+Aspiring Full-Stack Developer
