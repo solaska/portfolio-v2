@@ -1,71 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Kosmas Kasolas | Web Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-</head>
-<body>
-
-<header>
-    <nav class="navbar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
         <h2 class="logo">Kosmas Kasolas</h2>
         <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><a href="#about" id="aboutBtn">About</a></li>
+          <li><a href="#projects" id="projectsBtn">Projects</a></li>
+          <li><a href="#contact" id="contactBtn">Contact</a></li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<section class="hero">
-    <div class="hero-text">
+    <section class="hero">
+      <div class="hero-text">
         <h1>Hi, I'm Kosmas</h1>
-        <p>A Web Developer in progress </p>
-        <a href="#projects" class="btn">View My Work</a>
-    </div>
-</section>
+        <p>A Web Developer in progress</p>
+        <a href="#projects" class="btn" id="projectsLoadBtn">View My Work</a>
+      </div>
+    </section>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am currently learning full-stack web development.
-        This portfolio demonstrates HTML, CSS, Flexbox, and CSS Grid.
-    </p>
-</section>
+    <section id="about" style="display: none">
+      <h2>About Me</h2>
+      <p>
+        I am currently learning full-stack web development. This portfolio
+        demonstrates HTML, CSS, Flexbox, and CSS Grid.
+      </p>
+    </section>
 
-<section id="projects">
-    <h2>My Projects</h2>
-    <div class="project-grid">
+    <section id="projects" style="display: none">
+      <h2>My Projects</h2>
+      <div class="project-grid">
         <div class="card">
-            <h3>HTML Portfolio</h3>
-            <p>Built using pure HTML.</p>
+          <h3>HTML Portfolio</h3>
+          <p>Built using pure HTML.</p>
         </div>
         <div class="card">
-            <h3>CSS Styling</h3>
-            <p>Styled using external CSS.</p>
+          <h3>CSS Styling</h3>
+          <p>Styled using external CSS.</p>
         </div>
         <div class="card">
-            <h3>Flexbox Layout</h3>
-            <p>Navigation built with Flexbox.</p>
+          <h3>Flexbox Layout</h3>
+          <p>Navigation built with Flexbox.</p>
         </div>
         <div class="card">
-            <h3>CSS Grid Layout</h3>
-            <p>Responsive grid for projects section.</p>
+          <h3>CSS Grid Layout</h3>
+          <p>Responsive grid for projects section.</p>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: kosmkaso@gmail</p>
-</section>
+    <section id="contact" style="display: none">
+      <h2>Contact</h2>
+      <p>Email: kosmkaso@gmail</p>
+      <button id="showContact">Show Contact</button>
+    </section>
 
-<footer>
-    <p> 2026 Kosmas Kasolas</p>
-</footer>
-
-</body>
+    <footer>
+      <p>2026 Kosmas Kasolas</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js" charset="UTF-8"></script>
+  </body>
 </html>
